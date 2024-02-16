@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.title {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+body {
+    background-color: black;
+    color: white;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    max-width: 600px;
+    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.move-button {
+    background-color: transparent;
+    height: 100px;
+    width: 100px;
+    border-width: 1px solid white;
+    border-radius: 50px;
+}
+.move-icon {
+    height: 50px;
+}
+.result, .move, .score {
+    font-size: 25px;
+}
+.reset-score-button, .auto-play-button {
+    background-color: white;
+    border: none;
+    font-size: 15px;
+    padding: 10px 10px;
+    cursor: pointer;
+}
