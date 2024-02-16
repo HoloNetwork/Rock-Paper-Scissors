@@ -7,4 +7,5 @@ A rock paper scissors game with autoplay available !!!
 Rock > win > Scissors
 
 Scissors > win > Paper
+
 Paper > win > Rock
